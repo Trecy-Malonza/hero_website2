@@ -1,0 +1,280 @@
+.color {
+    color: #ff395a;
+  }
+  
+  a {
+    text-decoration: none;
+    padding: 16px;
+    gap: 3%;
+  }
+  .navbar-header {
+    font-size: 30px;
+  }
+  #menu-toggle {
+    display: none;
+  }
+  .login {
+    border-radius: 45%;
+    color: #ff395a;
+    border-color: #ff395a;
+    border-style: none;
+    font-size: 30px;
+  }
+  .join {
+    border-radius: 30px;
+    color: #fff;
+    background-color: #ff395a;
+    border-style: none;
+    font-size: 30px;
+  }
+  
+  .btn-skills {
+    color: #a3b6ce;
+    padding-left: 26px;
+    width: 90px;
+    font-size: 28px;
+  }
+  .landing-button {
+    border: 2px solid #ccd3ca;
+    border-radius: 30px;
+  }
+  .explore-btn {
+    border-radius: 38px;
+    background-color: #ff395a;
+    color: #fff;
+    border-style: none;
+    padding: 16px;
+    font-size: 20px;
+    margin-left: 23%;
+  }
+  .active {
+    color: #ff395a;
+  }
+  .landing-page {
+    display: flex;
+    gap: 10%;
+  }
+  .hero {
+    width: 280%;
+    border-radius: 45px;
+  }
+  .hero-img {
+    margin-left: 10%;
+  }
+  .logos {
+    display: flex;
+    gap: 20%;
+    color: #9cb0ca;
+    padding: 16px;
+    margin-left: 13%;
+    width: 50%;
+  }
+  .logo-image {
+    width: 50px;
+  }
+  #logo-image {
+    width: 80px;
+  }
+  .microsoft {
+    display: flex;
+    gap: 5%;
+    padding-bottom: 36px;
+    color: #9cb0ca;
+  }
+  
+  .name-logo {
+    font-size: 28px;
+  }
+  .slack {
+    display: flex;
+    gap: 5%;
+    padding-bottom: 36px;
+  }
+  .subscriptions {
+    display: flex;
+    font-size: 25px;
+  }
+  .tick {
+    width: 30px;
+  }
+  .monthly-subcription {
+    padding: 16px;
+  }
+  .landing-page-texts {
+    font-size: 60px;
+    color: #233860;
+    padding: 16px;
+  }
+  #landing-page-texts {
+    color: #9cb0ca;
+    padding: 16px;
+  }
+  .cap {
+    width: 30px;
+  }
+  .navbar {
+    display: flex;
+    margin-left: 5%;
+    gap: 10%;
+  }
+  .navbar-pages {
+    font-size: 30px;
+    gap: 5%;
+    margin-left: 25%;
+  }
+  .landing-page {
+    margin-left: 5%;
+  }
+  .subscription {
+    margin-left: 5%;
+  }
+  @media only screen and (max-width: 600px) and (min-width: 280px) {
+    .categories {
+      display: block;
+    }
+    .navbar-header {
+      font-size: 20px;
+    }
+    .landing-page {
+      display: flex;
+      flex-direction: column;
+    }
+    .login {
+      display: block;
+    }
+    .subscriptions {
+      display: flex;
+      flex-direction: column;
+    }
+    .hero {
+      width: 120%;
+      border-radius: 45%;
+    }
+    .logos {
+      display: flex;
+      flex-direction: column;
+    }
+    .microsoft {
+      display: flex;
+      gap: 5%;
+      padding-bottom: 36px;
+    }
+    .hamburger-menu {
+      cursor: pointer;
+      display: inline-block;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 1000;
+    }
+    .hamburger-menu div {
+      width: 25px;
+      height: 2px;
+      background-color: #333;
+      margin: 4px 0;
+    }
+    #menu-toggle:checked ~ .nav.links {
+      display: block;
+      display: none;
+    }
+    .login {
+      border-radius: 36%;
+      color: #ff395a;
+      border-color: #ff395a;
+      border-style: none;
+      font-size: 20px;
+    }
+    .join {
+      border-radius: 30px;
+      color: #fff;
+      background-color: #ff395a;
+      border-style: none;
+      font-size: 20px;
+    }
+    .navbar-pages {
+      font-size: 20px;
+      gap: 2%;
+    }
+    .landing-page-texts {
+      font-size: 40px;
+      
+      padding: 16px;
+    }
+  }
+  
+  @media only screen and (max-width: 1000px) and (min-width: 601px) {
+    a {
+      gap: 10%;
+    }
+    .navbar-header {
+      font-size: 20px;
+    }
+    .hero {
+      width: 100%;
+      border-radius: 45%;
+    }
+    .explore-btn {
+      border-radius: 38px;
+      background-color: #ff395a;
+      color: #fff;
+      border-style: none;
+      padding: 16px;
+      font-size: 20px;
+      margin-left: 8%;
+    }
+    .logos {
+      display: flex;
+      gap: 10%;
+      margin-left: 8%;
+    }
+    .navbar-pages {
+      font-size: 20px;
+      gap: 2%;
+    }
+    .hamburger-menu {
+      cursor: pointer;
+      display: inline-block;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 1000;
+    }
+    .hamburger-menu div {
+      width: 25px;
+      height: 2px;
+      background-color: #333;
+      margin: 4px 0;
+    }
+    #menu-toggle:checked ~ .nav.links {
+      display: block;
+      display: none;
+    }
+    .landing-page {
+      display: flex;
+      flex-direction: column;
+    }
+    .hero {
+      width: 70%;
+    }
+    .logo-image {
+      width: 20px;
+    }
+    #logo-image {
+      width: 60px;
+    }
+    .login {
+      border-radius: 36%;
+      color: #ff395a;
+      border-color: #ff395a;
+      border-style: none;
+      font-size: 20px;
+    }
+    .join {
+      border-radius: 30px;
+      color: #fff;
+      background-color: #ff395a;
+      border-style: none;
+      font-size: 20px;
+    }
+  }
+  
